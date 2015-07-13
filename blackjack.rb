@@ -15,8 +15,8 @@ class Game
   # Basic game logic
   def play
     # Put two cards in each players hand
-    self.dealer.hand += self.deck.pop(2)
-    self.player.hand += self.deck.pop(2)
+    dealer.hand += deck.pop(2)
+    player.hand += deck.pop(2)
     show_hands
     ace_on_arrival?
     check_players(player)
