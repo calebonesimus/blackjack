@@ -162,9 +162,8 @@ class Game
         end
       end
     end
-
     puts "\nPlayer score: #{player.wins} --- Dealer score: #{dealer.wins}"
-
+    play_again?
   end
 
   def play_again?
