@@ -20,9 +20,9 @@ class Deck
 
   # Form a 52 card deck and shuffle it
   def create_deck
-    self.suits.each do |suit|
-      self.faces.each do |face|
-        self.cards << Card.new(face, suit)
+    suits.each do |suit|
+      faces.each do |face|
+        cards << Card.new(face, suit)
       end
     end
     shuffle!
